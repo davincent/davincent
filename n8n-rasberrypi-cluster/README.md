@@ -63,6 +63,7 @@ curl -sfL https://get.k3s.io | sh -
 
 # Join worker nodes (run on each worker)
 curl -sfL https://get.k3s.io | K3S_URL=https://master-ip:6443 K3S_TOKEN=node-token sh -
+```
 
 ### 2. Deploy N8N
 ```bash
@@ -71,6 +72,7 @@ kubectl apply -f k8s-manifests/
 
 # Verify deployment
 kubectl get pods -n n8n
+```
 
 ### 3. 3. Configure Cloudflare Tunnel
 ```bash
@@ -79,6 +81,7 @@ kubectl get pods -n n8n
 
 # Configure tunnel (follow prompts)
 ./scripts/setup-tunnel.sh
+```
 
 ### 4. Access Application
 Navigate to https://your-domain.com to access n8n interface.
