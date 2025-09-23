@@ -1,9 +1,4 @@
 # Enterprise-Grade Homelab: K3s Cluster with N8N Workflow Automation
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-
 A production-ready Kubernetes cluster running on Raspberry Pi hardware, featuring workflow automation, zero-trust networking, and enterprise management tools.
 
 ## 🏗️ Architecture Overview
@@ -15,11 +10,23 @@ A production-ready Kubernetes cluster running on Raspberry Pi hardware, featurin
 - **Total Resources**: 28 CPU cores, 26GB RAM
 
 ### Software Stack
-- **Container Orchestration**: k3s (Lightweight Kubernetes)
-- **Application**: n8n workflow automation
-- **Networking**: Cloudflare Tunnel (Zero-trust access)
-- **Management**: Rancher (Web-based cluster management)
-- **Storage**: local-path-provisioner (Persistent volumes)
+## 🛠️ Technology Stack
+
+<div align="center">
+
+[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)](https://www.raspberrypi.org/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://www.cloudflare.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
+
+</div>
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| ![K3s](https://img.shields.io/badge/k3s-326CE5?style=flat-square&logo=kubernetes&logoColor=white) | **K3s** | Lightweight Kubernetes |
+| ![N8N](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) | **n8n** | Workflow Automation |
+| ![Rancher](https://img.shields.io/badge/rancher-%230075A8.svg?style=flat-square&logo=rancher&logoColor=white) | **Rancher** | Cluster Management |
 
 ### Network Flow
 - External Request → Cloudflare → Tunnel → NodePort:30080 → N8N Pod
