@@ -1,17 +1,11 @@
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/kubernetes.svg" title="Kubernetes" alt="Kubernetes" width="50" height="50"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" title="Docker" alt="Docker" width="50" height="50"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/raspberrypi.svg" title="Raspberry Pi" alt="Raspberry Pi" width="50" height="50"/>&nbsp;
-<svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10.204 14.35l.007.01-.999 2.413a5.171 5.171 0 0 1-2.075-2.597l2.578-.437.004.005.485 1.606z"/>
-</svg>
-
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100"><path fill="#EA4B71" fill-rule="evenodd" d="" clip-rule="evenodd"/></svg>
-
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linux.svg" title="Linux" alt="Linux" width="50" height="50"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cloudflare.svg" title="Cloudflare" alt="Cloudflare" width="50" height="50"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rancher.svg" title="Rancher" alt="Rancher" width="50" height="50"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gnubash.svg" title="Bash" alt="Bash" width="50" height="50"/>
-
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Rancher](https://img.shields.io/badge/rancher-%230075A8.svg?style=for-the-badge&logo=rancher&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 # Enterprise-Grade Homelab: K3s Cluster with N8N Workflow Automation
 A production-ready Kubernetes cluster running on Raspberry Pi hardware, featuring workflow automation, zero-trust networking, and enterprise management tools.
 
