@@ -111,6 +111,28 @@ Navigate to https://your-domain.com to access n8n interface.
 - Automated deployments via scripts
 - Comprehensive monitoring and logging
 
+### Auto-scaling (Future Enhancement)
+- Horizontal Pod Autoscaler configuration
+- Vertical Pod Autoscaler for optimal resource usage
+- Cluster autoscaler for node management
+
+## 🛡️ Security Considerations
+- Network Isolation: No direct internet exposure
+- Zero Trust: All access via authenticated tunnels
+- Encryption: End-to-end SSL/TLS encryption
+- Access Control: Kubernetes RBAC implementation
+- Secret Management: Kubernetes secrets for sensitive data
+
+## 📚 Learning Outcomes
+### This project demonstrates proficiency in:
+- Container Orchestration: Kubernetes administration and YAML manifest creation
+- Infrastructure as Code: Declarative infrastructure management
+- Network Security: Zero-trust networking principles
+- System Administration: Linux system management and troubleshooting
+- Cloud Integration: Hybrid cloud networking and DNS management
+- Automation: Scripting and deployment automation
+- Monitoring: Resource monitoring and performance optimization
+
 ## 🔗 Related Projects
 - [k3s Documentation](https://k3s.io/)
 - [n8n Documentation](https://docs.n8n.io/)
