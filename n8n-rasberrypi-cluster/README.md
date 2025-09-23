@@ -74,7 +74,7 @@ kubectl apply -f k8s-manifests/
 kubectl get pods -n n8n
 ```
 
-### 3. 3. Configure Cloudflare Tunnel
+### 3. Configure Cloudflare Tunnel
 ```bash
 # Install cloudflared
 ./scripts/install-cloudflared.sh
