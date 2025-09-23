@@ -1,10 +1,10 @@
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/kubernetes.svg" title="Kubernetes" alt="Kubernetes" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" title="Docker" alt="Docker" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/raspberrypi.svg" title="Raspberry Pi" alt="Raspberry Pi" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/n8n.svg" title="n8n" alt="n8n" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linux.svg" title="Linux" alt="Linux" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cloudflare.svg" title="Cloudflare" alt="Cloudflare" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rancher.svg" title="Rancher" alt="Rancher" width="50" height="50"/>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/kubernetes.svg" title="Kubernetes" alt="Kubernetes" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" title="Docker" alt="Docker" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/raspberrypi.svg" title="Raspberry Pi" alt="Raspberry Pi" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/n8n.svg" title="n8n" alt="n8n" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linux.svg" title="Linux" alt="Linux" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cloudflare.svg" title="Cloudflare" alt="Cloudflare" width="50" height="50"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rancher.svg" title="Rancher" alt="Rancher" width="50" height="50"/>&nbsp;
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gnubash.svg" title="Bash" alt="Bash" width="50" height="50"/>
 
 # Enterprise-Grade Homelab: K3s Cluster with N8N Workflow Automation
