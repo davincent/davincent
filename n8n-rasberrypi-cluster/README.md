@@ -113,7 +113,7 @@ Navigate to https://your-domain.com to access n8n interface.
 
 ## 🔗 Related Projects
 
-- k3s Documentation
-- n8n Documentation
-- Cloudflare Tunnel Docs
-- Rancher Documentation
+[k3s Documentation](https://k3s.io/)
+[n8n Documentation](https://docs.n8n.io/)
+[Cloudflare Tunnel Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
+[Rancher Documentation](https://rancher.com/docs/)
