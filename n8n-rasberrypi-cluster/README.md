@@ -85,3 +85,28 @@ kubectl get pods -n n8n
 
 ### 4. Access Application
 Navigate to https://your-domain.com to access n8n interface.
+
+## 💡 Key Features
+### High Availability
+
+Multi-node cluster with automatic failover
+Persistent storage for data durability
+Health checks and automatic restarts
+
+### Security
+
+Zero-trust network access via Cloudflare
+No exposed ports on home network
+SSL/TLS termination at edge
+
+### Scalability
+
+Horizontal scaling ready infrastructure
+Resource limits and requests configured
+Easy addition of new worker nodes
+
+### Operations
+
+Centralized management via Rancher
+Automated deployments via scripts
+Comprehensive monitoring and logging
