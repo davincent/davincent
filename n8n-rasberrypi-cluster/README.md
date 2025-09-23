@@ -22,3 +22,63 @@ A production-ready Kubernetes cluster running on Raspberry Pi hardware, featurin
 
 ## 🏗️ Architecture Diagram
 <img width="841" height="1225" alt="image" src="https://github.com/user-attachments/assets/8cba5e63-aa1e-4136-9f3c-81bf7df996b3" />
+
+## 📊 Infrastructure Specifications
+
+- **Compute**: 8x Raspberry Pi 4 (4GB RAM each)
+- **Cluster Resources**: 28 CPU cores, 26GB RAM across 7 nodes
+- **Management**: Dedicated Rancher instance on 8th Pi
+- **Storage**: Local-path provisioner with persistent volumes
+- **Networking**: Cloudflare tunnel with zero-trust access
+- **Container Runtime**: containerd via k3s
+
+## 🛠️ Technology Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Orchestration** | k3s (Lightweight Kubernetes) | Container orchestration |
+| **Management** | Rancher | Cluster management & monitoring |
+| **Application** | n8n | Workflow automation platform |
+| **Networking** | Cloudflare Tunnels | Secure external access |
+| **DNS** | Cloudflare DNS | Domain management |
+| **Storage** | local-path-provisioner | Persistent storage |
+| **Runtime** | containerd | Container runtime |
+| **OS** | Raspberry OS Lite | Minimal Linux distribution |
+
+## 🚀 Quick Start
+
+### Prerequisites
+- 7+ Raspberry Pi 4 devices with Raspberry OS Lite
+- Cloudflare account with domain
+- Basic Kubernetes knowledge
+
+### 1. Deploy K3s Cluster
+```bash
+# Clone repository
+git clone https://github.com/yourusername/homelab-k3s-n8n.git
+cd homelab-k3s-n8n
+
+# Install k3s on master node
+curl -sfL https://get.k3s.io | sh -
+
+# Join worker nodes (run on each worker)
+curl -sfL https://get.k3s.io | K3S_URL=https://master-ip:6443 K3S_TOKEN=node-token sh -
+
+### 2. Deploy N8N
+```bash
+# Apply Kubernetes manifests
+kubectl apply -f k8s-manifests/
+
+# Verify deployment
+kubectl get pods -n n8n
+
+### 3. 3. Configure Cloudflare Tunnel
+```bash
+# Install cloudflared
+./scripts/install-cloudflared.sh
+
+# Configure tunnel (follow prompts)
+./scripts/setup-tunnel.sh
+
+### 4. Access Application
+Navigate to https://your-domain.com to access n8n interface.
