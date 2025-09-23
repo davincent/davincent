@@ -5,28 +5,4 @@ A production-ready Kubernetes cluster running on Raspberry Pi hardware, featurin
 ## 🏗️ Architecture Overview
 
 ## 🏗️ Architecture Diagram
-```mermaid
-graph TD
-    Users[External Users]
-    Users --> CF[Cloudflare Network]
-    CF --> Tunnel[Encrypted Tunnel]
-    Tunnel --> Home[Home Network]
-    
-    Home --> K3s[K3s Cluster]
-    
-    subgraph "Infrastructure"
-        Master[Master Node<br/>Control Plane]
-        Workers[6x Worker Nodes<br/>28 Cores, 26GB RAM]
-        N8N[N8N Application<br/>Workflow Engine]
-        Rancher[Rancher Management<br/>Dedicated Pi]
-    end
-    
-    K3s --> Master
-    Master --> Workers
-    Workers --> N8N
-    Home --> Rancher
-    Rancher -.-> K3s
-    
-    style CF fill:#f39c12
-    style N8N fill:#2ecc71
-    style Rancher fill:#9b59b6
+<img width="841" height="1225" alt="image" src="https://github.com/user-attachments/assets/8cba5e63-aa1e-4136-9f3c-81bf7df996b3" />
