@@ -9,25 +9,18 @@ A production-ready Kubernetes cluster running on Raspberry Pi hardware, featurin
 - **Management**: 1x Dedicated Pi running Rancher
 - **Total Resources**: 28 CPU cores, 26GB RAM
 
-### Software Stack
 ## 🛠️ Technology Stack
-
-<div align="center">
-
-[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)](https://www.raspberrypi.org/)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://www.cloudflare.com/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
-
-</div>
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| ![K3s](https://img.shields.io/badge/k3s-326CE5?style=flat-square&logo=kubernetes&logoColor=white) | **K3s** | Lightweight Kubernetes |
-| ![N8N](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) | **n8n** | Workflow Automation |
-| ![Rancher](https://img.shields.io/badge/rancher-%230075A8.svg?style=flat-square&logo=rancher&logoColor=white) | **Rancher** | Cluster Management |
-
+| **Orchestration** | k3s (Lightweight Kubernetes) | Container orchestration |
+| **Management** | Rancher | Cluster management & monitoring |
+| **Application** | n8n | Workflow automation platform |
+| **Networking** | Cloudflare Tunnels | Secure external access |
+| **DNS** | Cloudflare DNS | Domain management |
+| **Storage** | local-path-provisioner | Persistent storage |
+| **Runtime** | containerd | Container runtime |
+| **OS** | Raspberry OS Lite | Minimal Linux distribution |
 ### Network Flow
 - External Request → Cloudflare → Tunnel → NodePort:30080 → N8N Pod
 
