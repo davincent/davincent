@@ -110,3 +110,10 @@ Navigate to https://your-domain.com to access n8n interface.
 - Centralized management via Rancher
 - Automated deployments via scripts
 - Comprehensive monitoring and logging
+
+## 🔗 Related Projects
+
+- k3s Documentation
+- n8n Documentation
+- Cloudflare Tunnel Docs
+- Rancher Documentation
