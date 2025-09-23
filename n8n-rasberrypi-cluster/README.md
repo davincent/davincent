@@ -7,36 +7,26 @@ A production-ready Kubernetes cluster running on Raspberry Pi hardware, featurin
 ## 🏗️ Architecture Diagram
 ```mermaid
 graph TD
-    Users[External Users] --> CF[Cloudflare Network]
+    Users[External Users]
+    Users --> CF[Cloudflare Network]
+    CF --> Tunnel[Encrypted Tunnel]
+    Tunnel --> Home[Home Network]
     
-    subgraph "Cloudflare Services"
-        CF --> DNS[DNS Management]
-        CF --> SSL[SSL/TLS Termination]
-        CF --> DDoS[DDoS Protection]
+    Home --> K3s[K3s Cluster]
+    
+    subgraph "Infrastructure"
+        Master[Master Node<br/>Control Plane]
+        Workers[6x Worker Nodes<br/>28 Cores, 26GB RAM]
+        N8N[N8N Application<br/>Workflow Engine]
+        Rancher[Rancher Management<br/>Dedicated Pi]
     end
     
-    CF --> |Encrypted Tunnel| Tunnel[Cloudflare Tunnel]
-    
-    subgraph "Home Network"
-        Tunnel --> |Port 30080| K3sCluster[K3s Cluster]
-        
-        subgraph "K3s Cluster - 7 Raspberry Pis"
-            direction TB
-            Master[Master Node<br/>Control Plane<br/>API Server] 
-            Workers[6x Worker Nodes<br/>28 CPU Cores<br/>26GB RAM]
-            Master -.->|Schedules| Workers
-        end
-        
-        subgraph "Applications"
-            N8N[N8N Workflow Engine<br/>2-8GB RAM<br/>1-4 CPU Cores<br/>20GB Storage]
-        end
-        
-        Workers --> N8N
-        
-        RancherPi[Rancher Management<br/>Dedicated Pi] -.->|Manages| K3sCluster
-    end
+    K3s --> Master
+    Master --> Workers
+    Workers --> N8N
+    Home --> Rancher
+    Rancher -.-> K3s
     
     style CF fill:#f39c12
-    style K3sCluster fill:#3498db
     style N8N fill:#2ecc71
-    style RancherPi fill:#9b59b6
+    style Rancher fill:#9b59b6
