@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Vincent 👋
 
-## Software Engineer | Full Sail CS Graduate | Python & JavaScript Developer
+## Software Engineer | Full Sail CS Graduate | C++ & Python Developer
 
 I'm a software engineer with a background in quality assurance and automation, 
 passionate about building efficient, scalable solutions.
