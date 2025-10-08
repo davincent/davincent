@@ -3,7 +3,7 @@
 ## Software Engineer | Full Sail CS Graduate | C++ & Python Developer
 
 I'm a software engineer with a background in quality assurance and automation, 
-passionate about building efficient, scalable solutions.
+passionate about building efficient and scalable solutions.
 
 ### 🔧 Technologies & Tools
 - **Languages:** C++, Python, JavaScript, Kotlin
