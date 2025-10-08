@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Daniel Vincent 👋
 
-<!--
-**davincent/davincent** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Software Engineer | Full Sail CS Graduate | Python & JavaScript Developer
 
-Here are some ideas to get you started:
+I'm a software engineer with a background in quality assurance and automation, 
+passionate about building efficient, scalable solutions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔧 Technologies & Tools
+- **Languages:** Python, JavaScript, C++, Kotlin
+- **Development:** Git, Agile/SDLC, AWS, System Design
+- **Focus Areas:** Automation, Algorithm Implementation, Quality Assurance
+
+### 💼 Currently
+- Completing BS in Computer Science at Full Sail University (Graduating September 2026)
+- Working as IT Support Analyst, developing Python automation solutions
+- Seeking full-time Software Engineer opportunities
+
+### 🚀 Featured Projects
+[Links to your best 2-3 projects with one-line descriptions]
+
+### 📫 Connect With Me
+- LinkedIn: davincent
+- Email: dgvincent95@gmail.com
+- Location: Baton Rouge, LA
