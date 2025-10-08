@@ -12,7 +12,7 @@ passionate about building efficient and scalable solutions.
 
 ### 💼 Currently
 - Completing BS in Computer Science at Full Sail University (Graduating September 2026)
-- Working as IT Support Analyst, developing Python automation solutions
+- Working as IT Support Analyst, developing Python and PowerShell automation solutions
 - Seeking full-time Software Engineer opportunities
 
 ### 🚀 Featured Projects
