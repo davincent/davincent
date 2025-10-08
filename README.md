@@ -6,7 +6,7 @@ I'm a software engineer with a background in quality assurance and automation,
 passionate about building efficient, scalable solutions.
 
 ### 🔧 Technologies & Tools
-- **Languages:** Python, JavaScript, C++, Kotlin
+- **Languages:** C++, Python, JavaScript, Kotlin
 - **Development:** Git, Agile/SDLC, AWS, System Design
 - **Focus Areas:** Automation, Algorithm Implementation, Quality Assurance
 
